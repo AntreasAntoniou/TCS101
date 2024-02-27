@@ -1,9 +1,9 @@
-# Simple Automated Seller
+# Simple Automated Seller: Super Simple Mode
 
 ## Overview
 
 You are to implement a very simple automated seller, that asks the user to input their:
-- Name and Surname
+- Name and surname
 - Description of item they wish to buy
 - price of the item per unit
 - total units they are buying
