@@ -54,6 +54,38 @@ print("age:", age)
 print("height:", height)
 print("weight:", weight)
 
+# Python math operations
+
+# You can perform math operations in Python. Here are a few examples:
+
+# Addition
+
+# Examples:
+
+addition = 1 + 2
+print("addition:", addition)
+
+# Subtraction
+
+# Examples:
+
+subtraction = 2 - 1
+print("subtraction:", subtraction)
+
+# Multiplication
+
+# Examples:
+
+multiplication = 2 * 3
+print("multiplication:", multiplication)
+
+# Division
+
+# Examples:
+
+division = 4 / 2
+print("division:", division)
+
 
 def compute_bmi(weight: float, height: float) -> float:
     square_height = height**2
