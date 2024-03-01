@@ -7,7 +7,20 @@
 # For example, if N is 10, the function should return the first 10 Fibonacci numbers:
 # 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
 
-N = int(input("Enter the number of fibonnaci digits to print: "))
+N = int(input("Enter the number of digits to print: "))
+
+
+def print_first_N_numbers(N):
+    for i in range(N):
+        print(i)
+
+
+print_first_N_numbers(N)
+
 
 def compute_fibonacci(N):
+    pass  # remove this line and replace it with your code
     # do some work here that computes the first N Fibonacci numbers and prints them
+
+
+compute_fibonacci(N)
