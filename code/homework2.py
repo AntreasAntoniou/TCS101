@@ -18,6 +18,7 @@ def print_first_N_numbers(N):
     bag_of_numbers = []
     for i in range(N):
         print(i)
+        print(bag_of_numbers)
         bag_of_numbers.append(i)
 
     print(bag_of_numbers)
