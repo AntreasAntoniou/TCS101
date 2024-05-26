@@ -14,8 +14,8 @@ N = int(input("Enter the number of digits to print: "))
 # print("The 5th number in the bag is", bag_of_numbers[4])
 
 
-def print_first_N_numbers(N):
-    bag_of_numbers = []
+def print_first_N_numbers(N: int):
+    bag_of_numbers = []  # list()
     for i in range(N):
         print(i)
         print(bag_of_numbers)
@@ -30,8 +30,10 @@ print_first_N_numbers(N)
 
 
 def compute_fibonacci(N):
-    pass  # remove this line and replace it with your code
-    # do some work here that computes the first N Fibonacci numbers and prints them
+    bag_of_many_numbers = list()
+    bag_of_many_numbers.append(0)
+    print(bag_of_many_numbers)
 
 
 compute_fibonacci(N)
+print_first_N_numbers(N)

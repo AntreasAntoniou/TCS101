@@ -21,9 +21,11 @@
 
 condition = input("Is the condition True? (Yes/No)\n")
 
-if condition == "Yes":
+if condition == "Yes Master":
+    print("I see you are a man of culture")
+elif condition == "Yes":
     print("The condition is True")
-elif condition == "yes":
+elif condition == "Yes Master":
     print("The condition is True")
 elif condition == "y":
     print("The condition is True")

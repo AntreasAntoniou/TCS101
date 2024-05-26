@@ -41,3 +41,16 @@ your_condition = input("Is the condition True? (Yes/No)\n")
 while your_condition != "Yes":
     print("The condition is False")
     your_condition = input("Is the condition True? (Yes/No)\n")
+
+
+for second in range(9*60*60):
+    do_work()
+
+stop_working()
+
+while iam_tired:
+    stop_working()
+
+do_work()
+
+

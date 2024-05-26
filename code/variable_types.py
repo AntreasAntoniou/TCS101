@@ -86,6 +86,9 @@ print("multiplication:", multiplication)
 division = 4 / 2
 print("division:", division)
 
+bmi = 85 / 1.86**2
+print(bmi)
+
 
 def compute_bmi(weight: float, height: float) -> float:
     square_height = height**2
@@ -98,8 +101,32 @@ def compute_bmi(weight: float, height: float) -> float:
 my_age = 32
 my_height = 1.86
 my_weight = 88.5
+my_bmi = compute_bmi(weight=my_weight, height=my_height)
 
 print("my bmi:", compute_bmi(weight=my_weight, height=my_height))
+
+
+def cook_spagetti_carbonara(cooked_spagetti, carbonara_sauce, hot_pan):
+    pass
+
+
+def cook_pasta(uncooked_pasta):
+    pass
+
+
+def make_carbonara_source(pancetta, parmegianno_regianno, cheese_2):
+    pass
+
+
+def heat_pan(pan):
+    pass
+
+
+carbonara_portion = cook_spagetti_carbonara(
+    cooked_spagetti=cook_pasta(uncooked_pasta=None),
+    carbonara_sauce=make_carbonara_source(pancetta=None),
+    hot_pan=heat_pan(pan=None),
+)
 
 # Booleans
 
@@ -120,10 +147,12 @@ print("is_raining:", is_raining, "is_sunny:", is_sunny)
 
 # with bigger and smaller than operators
 my_age = 32
-older_than_18 = my_age > 18
+
 younger_than_18 = my_age < 18
 equal_to_18 = my_age == 18
 not_equal_to_18 = my_age != 18
+
+older_than_18 = my_age > 18
 older_than_or_equal_to_18 = my_age >= 18
 
 print(
